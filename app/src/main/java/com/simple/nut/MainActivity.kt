@@ -1,4 +1,4 @@
-package com.example.nut
+package com.simple.nut
 
 import android.media.MediaPlayer
 import android.os.Bundle

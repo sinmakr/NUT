@@ -1,4 +1,4 @@
-package com.example.nut
+package com.simple.nut
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
