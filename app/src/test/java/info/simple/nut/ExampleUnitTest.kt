@@ -1,4 +1,4 @@
-package com.simple.nut
+package info.simple.nut
 
 import org.junit.Test
 

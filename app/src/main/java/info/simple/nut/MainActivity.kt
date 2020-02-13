@@ -1,4 +1,4 @@
-package com.simple.nut
+package info.simple.nut
 
 import android.media.MediaPlayer
 import android.os.Bundle
@@ -14,7 +14,9 @@ class MainActivity : AppCompatActivity() {
         val nutButton: ImageButton = findViewById(R.id.sayNutButton)
 
         nutButton.setOnClickListener {
-            var nutSayer = MediaPlayer.create(this, R.raw.male_nut)
+            var nutSayer = MediaPlayer.create(this,
+                R.raw.male_nut
+            )
             nutSayer.start()
         }
     }
